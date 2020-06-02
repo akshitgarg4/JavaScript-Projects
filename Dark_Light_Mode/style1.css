@@ -1,0 +1,32 @@
+body{
+	background-color: #e7e9f1;
+}
+#toggle-button
+{
+	margin:auto;
+	margin-top:60px;
+	border-radius:20px;
+	background-color: lightgrey;
+    width: 140px;
+    height: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+p{
+	text-align: center;
+	color:red;
+	font-size: 30px;
+}
+#circle{
+	height:inherit;
+	width:35px;
+	border-radius:50%;
+	background-color:#403f3f;
+	transition: all 1s;
+}
+.light-mode{
+	color:white;
+}
+.dark-mode{
+	background-color:#403f3f;
+}
